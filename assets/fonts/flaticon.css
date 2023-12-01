@@ -1,53 +1,104 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 13/02/2017 11:56
-  	*/
-
 @font-face {
-  font-family: "Flaticon";
-  src: url("./Flaticon.eot");
-  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("./Flaticon.woff") format("woff"),
-       url("./Flaticon.ttf") format("truetype"),
-       url("./Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?b9da592727b2fa586dfdb7ebee129b1b") format("truetype"),
+url("./flaticon.woff?b9da592727b2fa586dfdb7ebee129b1b") format("woff"),
+url("./flaticon.woff2?b9da592727b2fa586dfdb7ebee129b1b") format("woff2"),
+url("./flaticon.eot?b9da592727b2fa586dfdb7ebee129b1b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b9da592727b2fa586dfdb7ebee129b1b#flaticon") format("svg");
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("./Flaticon.svg#Flaticon") format("svg");
-  }
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
+.flaticon-pin:before {
+    content: "\f101";
 }
-
-.flaticon-animals:before { content: "\f100"; }
-.flaticon-call-volume:before { content: "\f101"; }
-.flaticon-droplet:before { content: "\f102"; }
-.flaticon-forest:before { content: "\f103"; }
-.flaticon-greenhouse:before { content: "\f104"; }
-.flaticon-internet:before { content: "\f105"; }
-.flaticon-invention:before { content: "\f106"; }
-.flaticon-light-bulb:before { content: "\f107"; }
-.flaticon-like:before { content: "\f108"; }
-.flaticon-man:before { content: "\f109"; }
-.flaticon-message:before { content: "\f10a"; }
-.flaticon-people:before { content: "\f10b"; }
-.flaticon-phone-call:before { content: "\f10c"; }
-.flaticon-placeholder:before { content: "\f10d"; }
-.flaticon-plumber-tap:before { content: "\f10e"; }
-.flaticon-recycling-symbol:before { content: "\f10f"; }
-.flaticon-rocket-launch:before { content: "\f110"; }
-.flaticon-sprout:before { content: "\f111"; }
-.flaticon-sun:before { content: "\f112"; }
-.flaticon-technology:before { content: "\f113"; }
-.flaticon-time-left:before { content: "\f114"; }
-.flaticon-vibrating-phone:before { content: "\f115"; }
+.flaticon-email:before {
+    content: "\f102";
+}
+.flaticon-clock:before {
+    content: "\f103";
+}
+.flaticon-phone-ringing:before {
+    content: "\f104";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f105";
+}
+.flaticon-right-arrow:before {
+    content: "\f106";
+}
+.flaticon-left-arrow:before {
+    content: "\f107";
+}
+.flaticon-ticket:before {
+    content: "\f108";
+}
+.flaticon-calendar:before {
+    content: "\f109";
+}
+.flaticon-map:before {
+    content: "\f10a";
+}
+.flaticon-tick:before {
+    content: "\f10b";
+}
+.flaticon-quote:before {
+    content: "\f10c";
+}
+.flaticon-polar-bear:before {
+    content: "\f10d";
+}
+.flaticon-whale:before {
+    content: "\f10e";
+}
+.flaticon-bird:before {
+    content: "\f10f";
+}
+.flaticon-smiling-emoticon-square-face:before {
+    content: "\f110";
+}
+.flaticon-telephone:before {
+    content: "\f111";
+}
+.flaticon-plus-symbol:before {
+    content: "\f112";
+}
+.flaticon-zoo:before {
+    content: "\f113";
+}
+.flaticon-tiger:before {
+    content: "\f114";
+}
+.flaticon-elephant:before {
+    content: "\f115";
+}
+.flaticon-bear:before {
+    content: "\f116";
+}
+.flaticon-penguin:before {
+    content: "\f117";
+}
+.flaticon-koala:before {
+    content: "\f118";
+}
+.flaticon-monkey:before {
+    content: "\f119";
+}
+.flaticon-daughter:before {
+    content: "\f11a";
+}
+.flaticon-teen:before {
+    content: "\f11b";
+}
+.flaticon-clock-1:before {
+    content: "\f11c";
+}
